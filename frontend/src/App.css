@@ -1,0 +1,40 @@
+.App {
+  margin: 5%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: lightgreen;
+
+}
+
+.theForm {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.theForm :nth-child(1) {
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.theForm :nth-child(2) {
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.theForm :nth-child(3) {
+  width: 20%;
+  align-self: flex-end;
+}
+
+.postHeading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.allPost {
+  width: 60%;
+}
